@@ -8,7 +8,7 @@ battery capacity falls below the defined emergency level.
 FR-05:Mission Control shall receive command execution status.
 FR-06:Mission Control shall receive command execution status.
 #NON-FUNCTIONAL REQUIREMENTS
-NFR-01:The system should support communication with multiple rovers simultaneously.
+NFR-01:The system should support communication with 20 rovers simultaneously.
 NFR-02:The system shall continue operating despite temporary communication interruptions.
 NFR-03:Only authenticated Mission Control operators shall be allowed to issue commands.
 NFR-04:Command processing should normally complete within 5 seconds after a command is received by the rover.
