@@ -1,0 +1,12 @@
+#FUNCTIONAL REQUIREMENTS
+The rover shall receive commands from Mission Control and execute valid commands.
+The rover shall report its current position, battery level, temperature, and communication status.
+The system shall reject invalid or unauthorized commands.
+The rover shall enter Safe Mode when a critical battery or thermal condition is detected.
+Mission Control shall receive command execution status.
+Mission Control shall receive command execution status.
+#NON-FUNCTIONAL REQUIREMENTS
+The system should support communication with multiple rovers simultaneously.
+The system shall continue operating despite temporary communication interruptions.
+Only authenticated Mission Control operators shall be allowed to issue commands.
+Command processing should normally complete within 5 seconds after a command is received by the rover.
