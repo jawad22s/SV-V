@@ -10,5 +10,6 @@ FR-06:Mission Control shall receive command execution status.
 #NON-FUNCTIONAL REQUIREMENTS
 NFR-01:The system should support communication with 20 rovers simultaneously.
 NFR-02:The system shall continue operating despite temporary communication interruptions.
-NFR-03:Only authenticated Mission Control operators shall be allowed to issue commands.
+NFR-03:The system shall require authenticated and role-authorized
+operators before accepting rover commands.
 NFR-04:Command processing should normally complete within 5 seconds after a command is received by the rover.
